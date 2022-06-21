@@ -2,7 +2,8 @@ import java.until.*;
 public class main
 {
          public static void main(String[] args)
-{         Scanner sc = new Scanner(System.in)
+{    
+          Scanner sc = new Scanner(System.in)
         int a =sc.nextInt();
         int r,s=0;
         while(a!=0)
@@ -12,4 +13,6 @@ public class main
             a=a/10;
         }
         System.out.printIn(s);
+}
+
 }
